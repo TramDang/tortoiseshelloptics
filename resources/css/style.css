@@ -127,7 +127,6 @@ body{
 .information.container{
   display: flex;
 
-
 }
 .philo, .app{
   display: inline-block;
@@ -136,7 +135,6 @@ body{
 }
 .philo{
   margin-right: 5%;
-
 }
 
 .philotitle h3, .apptitle h3{
@@ -157,4 +155,31 @@ body{
 
 }
 .philocontent p,.appcontent p{
-  font-size: 1rem;}
+  font-size: 1rem;
+}
+#b-end{
+  display: flex;
+  justify-content: center;
+}
+.end.container{
+  display: flex;
+  background-color: azure;
+  height: 9.5rem;
+  margin-top: 4rem;
+
+}
+.blacklogo,.blogotitle h3{
+  display: flex;
+}
+img.blogo{
+  display: block;
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 2rem;
+
+}
+.blogotitle h3{
+  display: block;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}

@@ -1,0 +1,160 @@
+html{
+  font-size: 18px;
+}
+body{
+  font-family: helvetica;
+  line-height: 1.4;
+}
+#mainbanner{
+  display: flex;
+  flex-direction: column;
+  background-image:url(../images/glasses-bg.png);
+  background-size: cover;
+  height: 30rem;
+  align-items: center;
+  }
+
+.container{
+  display: flex;
+  width: 960px;
+
+}
+.bluebanner.container {
+  display: flex;
+  background-color: cadetblue;
+  height: 3.5rem;
+  margin-top: 1rem;
+
+
+}
+.whitelogo{
+  display:flex;
+  width: 60%;
+}
+.logo{
+  display: flex;
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+
+}
+.whitelogotitle h3{
+  display: block;
+  color: white;
+  font-size: 1rem;
+}
+.menu{
+  display: flex;
+  color: white;
+  width: 40%;
+}
+.box{
+  display: block;
+  font-size: 1rem;
+  margin: 1rem;
+
+}
+.whitebanner{
+  display: flex;
+  width: 1100px;
+  margin-top: 10rem;
+  font-weight: bold;
+}
+.dummybox{
+  display: block;
+  width: 40%;
+}
+.title{
+  display: flex;
+  width: 60%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+ .title1{
+  display: block;
+  font-size: 2rem;
+  line-height: 1.2;
+  width: 68%;
+  margin: 1.5rem 5rem;
+}
+
+.products{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.paper,.ruler,.truck{
+  display: flex;
+  width: 8rem;
+  height: 8rem;
+  flex-flow: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: center;
+  align-items: center;
+  }
+.paper1{
+  display: flex;
+  width: 3.5rem;
+}
+.ruler1,.truck1{
+  margin-top: 0;
+  display: flex;
+  width: 5rem;
+}
+.line h3{
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  width: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0rem;
+
+}
+
+.line1 h3{
+  display: block;
+  text-align: center;
+  width: 9rem;
+}
+#main2{
+  display: flex;
+  justify-content: center;
+
+}
+.information.container{
+  display: flex;
+
+
+}
+.philo, .app{
+  display: inline-block;
+  width: 35%;
+
+}
+.philo{
+  margin-right: 5%;
+
+}
+
+.philotitle h3, .apptitle h3{
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
+  margin-top: 3rem;
+
+}
+.philocontent,.appcontent{
+  display: block;
+  margin-top: 1rem;
+
+}
+.philocontent p,.appcontent p{
+  font-size: 1rem;}

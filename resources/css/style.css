@@ -181,5 +181,35 @@ img.blogo{
   display: block;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+@media only screen and (max-width:1024px){
+  body{
+    width: 960px;
+  }
+  .bluebanner.container{
+    margin-top: 0;
+  }
+  #mainbanner{
+    height: 22rem;
+  }
+  .whitebanner{
+    width: 880px;
+    margin-top: 5rem;
+  }
+  .title{
+    width: 55%;
+  }
+  .title1{
+   font-size: 1.33rem;
+   margin-left: 4rem;
+   margin-right: 4rem;
+   margin-top: 0.75rem;
+   margin-bottom: 0.75rem;
+   text-align: left;
 
+
+}
+.dummybox{
+  width: 40%;
+}
 }

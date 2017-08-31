@@ -24,8 +24,21 @@ body{
   background-color: cadetblue;
   height: 3.5rem;
   margin-top: 1rem;
+}
+.blue.container{
+  display: flex;
+  background-color: cadetblue;
+  height: 3.5rem;
+  margin-top: 1rem;
 
-
+}
+.menu1{
+  display: flex;
+  margin-left: 12rem;
+}
+.menu1 h3{
+  color: white;
+  margin-top: 0.95rem;
 }
 .whitelogo{
   display:flex;
@@ -182,6 +195,16 @@ img.blogo{
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+@media only screen and (min-width: 470px){
+  .blue.container{
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px){
+  .bluebanner.container{
+    display: none;
+  }
+}
 @media only screen and (max-width:1024px){
   body{
     width: 960px;
@@ -193,7 +216,7 @@ img.blogo{
     height: 22rem;
   }
   .whitebanner{
-    width: 880px;
+    width: 884px;
     margin-top: 5rem;
   }
   .title{
@@ -205,11 +228,74 @@ img.blogo{
    margin-right: 4rem;
    margin-top: 0.75rem;
    margin-bottom: 0.75rem;
-   text-align: left;
-
-
 }
 .dummybox{
   width: 40%;
 }
+}
+@media only screen and (max-width: 470px){
+  body{
+    width: 470px;
+  }
+  .blue.container{
+    width: 470px;
+    margin-top: 0;
+  }
+  .logo{
+    height: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.225rem;
+  }
+  #mainbanner{
+    height: 17rem;
+    background-position: 20%;
+    margin-bottom: 3.77rem;
+  }
+  .dummybox{
+    width: 23%;
+  }
+  .title{
+    width: 52%;
+    margin-top: 4rem;
+  }
+  .title1{
+    font-size: 1rem;
+  }
+  .products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .line1 h3{
+      font-size: 1rem;
+    }
+
+  .information.container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .philo,.app{
+    width: 90%;
+  }
+  .blogotitle h3{
+    display: none;
+  }
+
+  .end {
+    justify-content: center;
+    align-items: center;
+  }
+  .philotitle h3,.apptitle h3{
+    width: 100%;
+    text-align: center;
+  }
+  .philocontent p,.appcontent p{
+    font-size: 0.77rem;
+    margin-top: 1rem;
+  }
+  .apptile h3{
+    margin-top: 4rem;
+  }
 }
